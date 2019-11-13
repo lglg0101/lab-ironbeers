@@ -7,10 +7,31 @@ font-family: Arial, Helvetica, sans-serif
 
    */
 
+
 body {
   margin: 0;
   background: #F7F9F9;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+h5 {
+  text-align: left;
+  color: darkblue;
+}
+
+
+.beerspImg {
+  margin-top: 3rem;
+  align-self: center;
+}
+
+
+
+.beers-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
 }
 
 nav {
@@ -63,19 +84,12 @@ p {
 }
 
 
-.beer-container {
-  display: flex;
-  flex-wrap: wrap;
-  /* justify-content: wrap; */
-}
-
-
 h3 {
   font-size: 15px;
 }
 
-.random-beer {}
 
 .small {
-  width: 10px;
+  width: 100px;
+  align-content: center;
 }
